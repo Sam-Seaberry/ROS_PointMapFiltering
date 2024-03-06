@@ -1,0 +1,8 @@
+<launch>
+    <node name = "laser_FilterNode" pkg = 'quantillion' 
+        type = "pointCloudFilter"/>
+
+    <node pkg="tf" type="static_transform_publisher"
+        name="pointcloud" 
+        args="0 0 0 0 0 0 1 map pointcloud 10"/>
+</launch>
