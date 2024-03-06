@@ -36,7 +36,7 @@ void callback(const sensor_msgs::PointCloud2ConstPtr& cloud_msg){
     }
     //filter intensities (min, max)
     // Max here set arbitrary
-    sor.setFilterLimits(1000.00 ,1000000.00);
+    sor.setFilterLimits(10.00 ,1000000.00);
 
     //Set leaf size for visualization 0.1 normal
     //0.01 used for finer visualization of pointcloud
