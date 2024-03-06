@@ -3,7 +3,7 @@ filtering of a ROS pointmap with testing publisher and rviz lanuch file
 
 build steps:
 Add folder to ros workspace
-in root of workspace:
+in root of workspace:\n
   catkin_make
   chmod -x LidarFilter.launch
   source devel/setup.bash
