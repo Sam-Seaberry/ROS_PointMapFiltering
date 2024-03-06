@@ -1,5 +1,5 @@
-# ROS_PointMapFiltering
-filtering of a ROS pointmap with testing publisher and rviz lanuch file
+# ROS_PointCloudFiltering
+filtering of a ROS pointcloud2 with testing publisher and rviz lanuch file
 
 build steps:
 Add folder to ros workspace  
